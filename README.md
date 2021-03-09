@@ -9,7 +9,7 @@ The original code is `original_code.c` and the optimized code is `optimized_code
 During the optimization process i used `Gprof`. <br />
 
 Some examples of the optimizations that i did: <br />
-* Using Registers int insted int for variables that are in often use during the function
+* Using Registers int insted int for variables that are in often use during the function (important to say - it is only a "recommendation for the compiler")
 * Using macro expression, and make the math operation on the expression instead of doing it during compilation time
 * Use #define instead of "small functions" - save the run-time call for function  
 * etc
